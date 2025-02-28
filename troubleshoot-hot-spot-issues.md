@@ -61,7 +61,7 @@ Value: null
 
 - 判断写热点依据：打开监控面板 TiKV-Trouble-Shooting 中 Hot Write 面板，观察 Raftstore CPU 监控是否存在个别 TiKV 节点的指标明显高于其他节点的现象。
 
-- 判断读热点依据：打开监控面板 TIKV-Details 中 Thread_CPU，查看 coprocessor cpu 有没有明显的某个 TiKV 特别高。
+- 判断读热点依据：打开监控面板 TIKV-Details 中 Thread_CPU，查看 Unified read pool CPU 有没有明显的某个 TiKV 特别高。
 
 ## 使用 TiDB Dashboard 定位热点表
 
